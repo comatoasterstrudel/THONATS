@@ -1,0 +1,6 @@
+this is a test dialogue:0.03:255-197-239:assets/sounds/comatalk.ogg:
+maybe i can get it working today:0.03:255-197-239:assets/sounds/comatalk.ogg:
+i can talk fast:0.01:255-197-239:assets/sounds/comatalk.ogg:
+or slow:0.1:255-197-239:assets/sounds/comatalk.ogg:
+look my text is white now woah:0.03:255-255-255:assets/sounds/comatalk.ogg:
+also my words wrap around if its too long look look look look look look look look:0.03:255-197-239:assets/sounds/comatalk.ogg:

@@ -1,0 +1,13 @@
+I've noticed you aren't responding.:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+Did I do something wrong?:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+...:0.03:255-162-122:255-76-0:assets/sounds/nothing.ogg:outer:
+Hey hey, it'll be okay!:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+Here I learned some breathing exercises in therapy!:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+...:0.03:255-162-122:255-76-0:assets/sounds/nothing.ogg:outer:
+Okay so you breathe in.:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+And you breathe in.:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+And you breathe in.:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+And you hold it all in.:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+And you dont stop holding it until you turn purple.:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+And when you turn purple..:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+That's how you know it worked!:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="outerbomb.png">
+<SubTexture name="idle0000" x="0" y="0" width="580" height="849" frameX="-10" frameY="-135" frameWidth="768" frameHeight="1000" />
+<SubTexture name="idle0001" x="580" y="0" width="527" height="848" frameX="-32" frameY="-133" frameWidth="768" frameHeight="1000" />
+</TextureAtlas>

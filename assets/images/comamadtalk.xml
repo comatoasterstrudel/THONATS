@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="comamadtalk.png">
+<SubTexture name="idle0000" x="586" y="0" width="610" height="963" frameX="-133" frameY="-25" frameWidth="768" frameHeight="1000" />
+<SubTexture name="idle0001" x="0" y="0" width="586" height="966" frameX="-132" frameY="-13" frameWidth="768" frameHeight="1000" />
+</TextureAtlas>

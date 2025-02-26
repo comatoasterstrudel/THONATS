@@ -1,0 +1,7 @@
+Hmm..:0.03:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:
+...:0.03:255-197-239:137-0-126:assets/sounds/nothing.ogg:coma:
+What are we supposed to be doing today..?:0.03:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:
+I remember last time we had to talk about social media...:0.03:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:
+But now..:0.03:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:
+I've got nothing....:0.03:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:
+...:0.03:255-197-239:137-0-126:assets/sounds/nothing.ogg:coma:

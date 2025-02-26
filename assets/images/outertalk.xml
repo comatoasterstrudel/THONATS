@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="outertalk.png">
+<SubTexture name="idle0000" x="0" y="0" width="640" height="879" frameX="-51" frameY="-105" frameWidth="768" frameHeight="1000" />
+<SubTexture name="idle0001" x="640" y="0" width="603" height="864" frameX="-46" frameY="-111" frameWidth="768" frameHeight="1000" />
+</TextureAtlas>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="comapissed.png">
+<SubTexture name="idle0000" x="0" y="0" width="535" height="890" frameX="-14" frameY="-34" frameWidth="768" frameHeight="1000" />
+<SubTexture name="idle0001" x="535" y="0" width="525" height="860" frameX="-1" frameY="-76" frameWidth="768" frameHeight="1000" />
+</TextureAtlas>

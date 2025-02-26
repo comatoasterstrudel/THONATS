@@ -1,0 +1,4 @@
+Oh.:0.03:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:
+...:0.03:255-197-239:137-0-126:assets/sounds/nothing.ogg:coma:
+Well what are you doing here anyway?:0.03:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:
+I dont think we can talk about politics..:0.03:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:

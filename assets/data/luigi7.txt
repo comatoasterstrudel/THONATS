@@ -1,0 +1,3 @@
+Well.:0.03:70-234-125:38-127-0:assets/sounds/luigitalk.ogg:luigi:
+That's it.:0.03:70-234-125:38-127-0:assets/sounds/luigitalk.ogg:luigi:
+Wait, can I tell you of a weird dream I keep having?:0.03:70-234-125:38-127-0:assets/sounds/luigitalk.ogg:luigi:

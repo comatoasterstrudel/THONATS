@@ -1,0 +1,4 @@
+The character's left, dingus.:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer: 
+Why would I be talking to the observers?:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+...:0.03:255-162-122:255-76-0:assets/sounds/nothing.ogg:outer:
+I went to therapy!:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:

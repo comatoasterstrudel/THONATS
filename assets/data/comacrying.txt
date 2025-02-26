@@ -1,0 +1,3 @@
+MY DOOR..:0.025:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:
+YOU EXPLODED MY DOOR.:0.025:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:
+DID YOU NOT READ THE SIGN??:0.025:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:

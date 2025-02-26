@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="comacontent.png">
+<SubTexture name="idle0000" x="498" y="0" width="498" height="848" frameX="-98" frameY="-90" frameWidth="768" frameHeight="1000" />
+<SubTexture name="idle0001" x="0" y="0" width="498" height="851" frameX="-101" frameY="-86" frameWidth="768" frameHeight="1000" />
+</TextureAtlas>

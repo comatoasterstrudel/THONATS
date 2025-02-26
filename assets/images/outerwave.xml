@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="outerwave.png">
+<SubTexture name="idle0000" x="0" y="0" width="646" height="813" frameX="-50" frameY="-145" frameWidth="768" frameHeight="1000" />
+</TextureAtlas>

@@ -1,0 +1,3 @@
+Well you see.:0.03:255-118-241:191-11-176:assets/sounds/laurietalk.ogg:laurie:
+THEY WANT TO TAKE OUR COMMAND BLOCKS.:0.03:255-118-241:191-11-176:assets/sounds/laurietalk.ogg:laurie:
+WE NEED TO OVERTHROW THE SPANKYTOWN GOVERNMENT.:0.03:255-118-241:191-11-176:assets/sounds/laurietalk.ogg:laurie:

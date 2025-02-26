@@ -1,0 +1,3 @@
+Wh....:0.03:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:
+What was that?:0.03:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:
+I didn't have plans with anyone today...:0.03:255-197-239:137-0-126:assets/sounds/comatalk.ogg:coma:

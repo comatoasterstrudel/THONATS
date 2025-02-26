@@ -1,0 +1,4 @@
+Are you any of you skilled in the art of:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+Defusal:0.05:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+And I dont mean arguments!:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
+I mean defusing this Crater Creator strapped to my chest!:0.03:255-162-122:255-76-0:assets/sounds/outertalk.ogg:outer:
