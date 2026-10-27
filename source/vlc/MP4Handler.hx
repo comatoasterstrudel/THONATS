@@ -48,6 +48,7 @@ class MP4Handler extends VlcBitmap
 
 	function checkFile(fileName:String):String
 	{
+		#if windows
 		var pDir = "";
 		var appDir = "file:///" + Sys.getCwd() + "/";
 
@@ -57,6 +58,8 @@ class MP4Handler extends VlcBitmap
 			pDir = "file:///";
 
 		return pDir + fileName;
+		#end
+		return fileName;
 	}
 
 	function onVLCVideoReady()

@@ -24,10 +24,12 @@ class PlayState extends FlxState
 {
 	var diabox:DialogueBox;
 
+	#if windows
 	var speechvideo:MP4Sprite;
 	var realspeechvideo:FlxSprite;
 	var testspeechbubble:FlxSprite;
 	var speechbubbleoutline:FlxSprite;
+	#end
 
 	var camGame:FlxCamera;
 	var camHud:FlxCamera;
@@ -46,7 +48,9 @@ class PlayState extends FlxState
 	{
 		super.create();
 
+		#if windows
 		startvid();
+		#end
 
 		FlxG.mouse.visible = false;
 
@@ -101,8 +105,10 @@ class PlayState extends FlxState
 								diabox.startDialogue('speechbubble', function():Void{
 									coma.playAnimation('comaidle', 3);
 	
+									#if windows
 									removeVideoSpeechBubble();
-		
+									#end
+									
 									new FlxTimer().start(1.5, function(tmr:FlxTimer)
 									{
 										var distat = (FlxG.width / 2 - coma.width / 2) - coma.x;
@@ -131,7 +137,9 @@ class PlayState extends FlxState
 									coma.playAnimation('comayap', 3);
 								});
 							});
+							#if windows
 							addVideoSpeechBubble();
+							#end
 						}, function():Void{
 							coma.playAnimation('comayap', 3);
 						});	
@@ -800,7 +808,16 @@ class PlayState extends FlxState
 
 																				new FlxTimer().start(5, function(tmr:FlxTimer)
 																				{
+																					#if windows
 																					Sys.exit(0);
+																					#end
+
+																					var sdad = new FlxText(70, FlxG.height, 600 ,"the end", 45);
+																					sdad.setFormat('assets/fonts/andy.ttf', 60, 0xFFFFFFFF, CENTER);
+																					sdad.antialiasing = true;
+																					sdad.camera = camHud;
+																					sdad.screenCenter();
+																					add(sdad);
 																				});
 																			}});
 
@@ -835,6 +852,7 @@ class PlayState extends FlxState
 		});
 	}
 
+	#if windows
 	function addVideoSpeechBubble():Void{
 		testspeechbubble = new FlxSprite().loadGraphic('assets/images/speechbubble.png');
 				
@@ -863,6 +881,7 @@ class PlayState extends FlxState
 			speechbubbleoutline.visible = false;
 		}});
 	}
+	#end
 
 	function domusiccutscene():Void{
 		FlxG.sound.play('assets/sounds/crickets.ogg', .4);
@@ -998,10 +1017,12 @@ class PlayState extends FlxState
 	{
 		super.update(elapsed);
 
+		#if windows
 		if(testspeechbubble != null && speechvideo != null && realspeechvideo != null){
 			FlxSpriteUtil.alphaMaskFlxSprite(speechvideo, testspeechbubble, realspeechvideo);
 			speechbubbleoutline.setPosition(realspeechvideo.x, realspeechvideo.y);
 		}
+		#end
 
 		if(beginning){
 			var gamepad:FlxGamepad = FlxG.gamepads.lastActive;

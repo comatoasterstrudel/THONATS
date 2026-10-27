@@ -5,8 +5,7 @@ package;
  * other code easier to write. - Coma
  */
 
-import sys.FileSystem;
-import sys.io.File;
+import openfl.utils.Assets;
 
 using StringTools;
 
@@ -18,8 +17,8 @@ class Utilities
 	{
 		var daList:Array<String> = [];
 
-		if (FileSystem.exists(path))
-			daList = File.getContent(path).split('\n');
+		if (Assets.exists(path))
+			daList = Assets.getText(path).split('\n');
 
 		return daList;
 	}
@@ -55,39 +54,4 @@ class Utilities
 
 		return thingToSend;
 	}
-
-	public static function findFilesInPath(path:String, extns:Array<String>, ?filePath:Bool = false, ?deepSearch:Bool = true):Array<String>
-	{
-		var files:Array<String> = [];
-
-		if (FileSystem.exists(path))
-		{
-			for (file in FileSystem.readDirectory(path))
-			{
-				var path = haxe.io.Path.join([path, file]);
-				if (!FileSystem.isDirectory(path))
-				{
-					for (extn in extns)
-					{
-						if (file.endsWith(extn))
-						{
-							if (filePath)
-								files.push(path);
-							else
-								files.push(file);
-						}
-					}
-				}
-				else if (deepSearch) // ! YAY !!!! -lunar
-				{
-					var pathsFiles:Array<String> = findFilesInPath(path, extns, deepSearch);
-
-					for (_ in pathsFiles)
-						files.push(_);
-				}
-			}
-		}
-		return files;
-	}
-	
 }
